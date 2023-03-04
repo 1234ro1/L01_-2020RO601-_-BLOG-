@@ -10,6 +10,8 @@ namespace laboratorio1.Models
         {
         }
             
-        public DbSet<blogss>blogss { get; set; }
+        public DbSet<usuarios>usuarios { get; set; }
+        public DbSet<comentarios> comentarios { get; set; }
+        public DbSet<publicaciones> publicaciones { get; set; }
     }
 }
